@@ -1,0 +1,169 @@
+.dest_wrapper{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    background-image: url(http://www.nativeplanet.com/img/2014/09/30-5-pollachi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-wrap: wrap;
+}
+
+.dest_wrapper h1{
+     color: aliceblue;
+     text-shadow: 2px 1px 5px #242424;
+     font-size: 40px;
+     padding-bottom: 40px;
+     text-align: start;
+     padding-left: 30px;
+}
+
+.dest_1{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(3, 3, 3, 0.568);
+    border: 0;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.dest_2{
+    display: flex;
+    justify-content:space-evenly;
+    background-color: rgba(3, 3, 3, 0.568);
+    border: 0;
+}
+.dest_card{
+    color:rgb(253, 253, 253);
+    background-image: url("http://amazingindiablog.in/wp-content/uploads/2016/09/Hawa-Mahal-Evening-View.jpg");
+    background-size: cover;
+    object-fit: cover;
+    padding: 10rem 0 0;
+    width:430px;
+    border-radius: 1rem;
+    transition: transform  500ms ease;
+    overflow: hidden;
+    margin-bottom: 20px;
+    
+}
+
+.dest_1 .dest_card:nth-child(2){
+    background-image: url(https://akm-img-a-in.tosshub.com/indiatoday/images/story/201701/kstory_647_010317124538.jpg?size=770:433);
+}
+
+.dest_1 .dest_card:nth-child(3){
+    background-image: url(https://kamakshitours.com/wp-content/uploads/2020/05/Assam-and-Meghalaya-Tour-with-Bhutan-Banner.jpg);
+}
+
+.dest_2 .dest_card:nth-child(1){
+    background-image: url(https://lp-cms-production.imgix.net/features/2017/07/GettyImages-552552051_1-622aee008bea.jpg?auto=compress&fit=crop&fm=auto&sharp=10&vib=20&w=1200);
+}
+
+.dest_2 .dest_card:nth-child(2){
+    background-image: url(https://www.adotrip.com/public/images/city/master_images/5e40fd203e4b7-Khajuraho_Attractions.jpg);
+    background-color: rgba(255, 166, 0, 0.349);
+    background-blend-mode: multiply;
+}
+
+.dest_2 .dest_card:nth-child(3){
+    background-image: url(https://earthnworld.com/wp-content/uploads/2017/12/PAHALGAM.jpg);
+}
+.dest_card:hover,
+.dest_card:focus-within{
+    transform: scale(1.02);
+}
+
+
+
+.dest_card_content{
+    --padding: 1.5rem;
+    padding: var(--padding);
+    background: linear-gradient(hsl(0 0% 0% / 0),hsl(20 0% 0% / 0.3) 20%, hsl(0 0% 0% / 0));
+    font-family: sans-serif;
+    line-height: 1.6;
+    transform: translateY(64%);
+    transition: transform 500ms ease;
+}
+
+.dest_card_content > *:not(.dest_card_title) {
+   opacity: 0; 
+   transition:  opacity 500ms linear;
+}
+
+.dest_card:hover .dest_card_content,
+.dest_card:focus-within .dest_card_content{
+    transform: translateY(0%);
+    transition-delay: 500ms;
+
+}
+
+.dest_card:focus-within .dest_card_content{
+    transition-delay: 0ms;
+}
+
+.dest_card:hover .dest_card_content > *:not(.dest_card_title) {
+    opacity: 1;
+    transition-delay: 1000ms;
+
+}
+
+
+
+.dest_card_title{
+    position: relative;
+    width: max-content;
+    /* outline: 1px solid red; */
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+.dest_card_title::after{
+    content:"";
+    position: absolute;
+    left: calc(var(--padding) * -1);
+    bottom: -2px;
+    height: 3px;
+    width:calc(100% + var(--padding));
+    background-color: hsl(142, 90%, 61%); 
+    transform: scaleX(0); 
+    transform-origin: left;
+    transition: transform 500ms ease;  
+}
+
+.dest_card:hover .dest_card_title::after{
+    transform: scaleX(1);
+}
+.dest_card_body{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: rgb(255 255 255 / 0.85);
+}
+.dest_card_button{
+    cursor: pointer;
+    display: inline;
+    text-decoration: none;
+    color:hsl(207, 19% , 9%);
+    background-color:hsl(142, 90%, 61%) ;
+    padding: 0.5em 1.25em;
+    transition: all 0.5s ease-out;
+    border-radius: 5px;
+    
+}
+
+.dest_card_button:hover,
+.dest_card_button:focus{
+    background-color: aquamarine;
+}
+
+@media screen and (max-width: 960px) {
+.dest_1,
+.dest_2{
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.dest_wrapper h1{
+    font-size: 30px;
+    padding: 0;
+}
+
+}

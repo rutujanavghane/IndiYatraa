@@ -1,0 +1,411 @@
+.overlay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.overlay h1{
+    font-size: 85px;
+    font-weight: 700;
+    text-shadow:  2px 1px 5px #242424 ;
+    text-transform: uppercase;
+    margin: 30px 0 20px 0;
+}
+.N-india,
+.S-india,
+.E-india,
+.W-india,
+.C-india,
+.U-india{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: black; */
+}
+
+.N-india{
+    background-image:url("http://d27k8xmh3cuzik.cloudfront.net/wp-content/uploads/2017/08/nagin-lake-kashmir2.jpg");
+}
+
+.S-india{
+    background-image:url("https://www.travelsouthindia.in/wp-content/uploads/2019/09/ooty-karnatakatourism-incredibleindia-847238-2-1280x563.jpg");
+}
+
+.E-india{
+    background-image:url("https://glacierbearretreat.com/wp-content/uploads/2014/02/st-marys-1024x400.jpg");
+    background-color: rgba(255, 166, 0, 0.452);
+    background-blend-mode: multiply;
+}
+
+.W-india{
+    background-image:url("https://deccantourism.in/wp-content/uploads/2018/11/maharashtra-hill-station-1.jpg");
+}
+
+.C-india{
+    background-image:url("https://www.tourism-of-india.com/pictures/travel_guide/chhattisgarh-705.jpeg");
+}
+
+.U-india{
+    background-image:url("https://oceaneyeholidays.com/wp-content/uploads/2020/12/Neil-island.jpg");
+}
+
+.N-drap,
+.S-drap,
+.E-drap,
+.W-drap,
+.C-drap,
+.U-drap{
+    width: 100%;
+    height: 100%;
+    background-color: #2424248f;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.N-container,
+.S-container,
+.E-container,
+.W-container,
+.C-container,
+.U-container{
+    margin-top:50px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.title{
+    padding-left: 20px; 
+    color: azure;
+}
+
+
+
+
+.S_btn
+{
+    padding-top: 12px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: transparent;
+    border: 2px solid azure;
+    color: azure;
+    font-weight: bold;
+    transition: all 0.5s;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.S_btn a:hover{
+    color: #242424;
+}
+
+.S_btn:hover{
+    background-color: aliceblue;
+    color:#242424
+}
+
+.todos{
+    height: 400px;
+    width: 100%;
+    background-color: #b4a68696;
+    overflow: hidden;
+    color: rgb(245, 245, 245);
+    text-align: center;
+    line-height: 400px;
+    font-size: 80px;
+    font-weight:bolder;
+    text-shadow: 3px 3px 4px #000000;
+    
+}
+
+.todos_child{
+    height: 100%;
+    width:500%;
+    background-color: rgb(85, 95, 104);
+    display:flex;
+    border-top:15px solid rgb(13, 13, 14);
+    border-bottom:15px solid rgb(12, 12, 12);;
+    animation-name: slider;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+    /* animation-play-state: paused; */
+}
+
+@keyframes slider {
+
+    12.5%{
+        margin-left: -100%;
+    }
+    25%{
+        margin-left: -100%;
+    }
+    37.5%{
+        margin-left: -200%;
+    }
+    50%{
+        margin-left: -200%;
+    }
+    62.5%{
+        margin-left: -300%;
+    }
+    75%{
+        margin-left: -300%;
+    }
+    87.5%{
+        margin-left: -400%;
+    }
+    100%{
+        margin-left: -400%;
+    }
+}
+
+.N-todo,
+.S-todo,
+.E-todo,
+.W-todo,
+.C-todo,
+.U-todo{
+    width:20%;
+    height: 100%;
+    background-color: blanchedalmond;
+    border-top:5px solid rgb(255, 255, 255);
+    border-bottom:5px solid rgb(255, 255, 255);
+    
+}
+
+.ele{
+    width:100%;
+    height:100%;
+    background-color: #0b1d449f;
+    text-transform:uppercase;
+    
+}
+
+.N-todo:nth-child(1){
+    background-image: url("http://eragenx.com/wp-content/uploads/2016/07/tulip-garden-kashmir.jpg");
+    background-size: cover;
+}
+.N-todo:nth-child(2){
+    background-image: url("https://res.cloudinary.com/enchanting/f_auto,q_70,w_1440,h_630,c_fill/et-web/2019/11/The-Taj-Mahal-glowing-red-at-morning-sunrise-along-the-rear-riverbank-of-the-holy-Jamuna-river-in-Agra-1.jpg");
+    background-size: cover;
+}
+.N-todo:nth-child(3){
+    background-image: url("https://www.travelagewest.com/uploadedImages/All_Gateways/ASPAC/Asia/Tiger_Hero.jpg?n=827");
+    background-size: cover;
+}
+.N-todo:nth-child(4){
+    background-image: url("https://www.varanasiguru.com/wp-content/uploads/2020/07/varanasiguru_106222675_182964903220081_7400230624713990660_n.jpg");
+    background-size: cover;
+}
+.N-todo:nth-child(5){
+    background-image: url("http://eragenx.com/wp-content/uploads/2016/07/tulip-garden-kashmir.jpg");
+    background-size: cover;
+}
+
+.S-todo:nth-child(1){
+    background-image: url("https://res-4.cloudinary.com/enchanting/images/w_1600,h_700,c_fill/et-web/2015/05/Chikmagalur-2/destination-chikmagalur-south-india.jpg");
+    background-size: cover;
+}
+.S-todo:nth-child(2){
+    background-image: url("https://www.keralabackwater.com/pictures/package/tourbanner/beautiful-backwaters-kerala-66.jpeg");
+    background-size: cover;
+}
+.S-todo:nth-child(3){
+    background-image: url("https://www.daiwikhotels.com/wp-content/uploads/2016/07/Madurai-cvr.jpg");
+    background-size: cover;
+}
+.S-todo:nth-child(4){
+    background-image: url("https://www.indianvisit.com/pictures/destination_banner/hampi-86.jpeg");
+    background-size: cover;
+}
+.S-todo:nth-child(5){
+    background-image: url("https://res-4.cloudinary.com/enchanting/images/w_1600,h_700,c_fill/et-web/2015/05/Chikmagalur-2/destination-chikmagalur-south-india.jpg");
+    background-size: cover;
+}
+
+.E-todo:nth-child(1){
+    background-image: url("https://d19lgisewk9l6l.cloudfront.net/assetbank/Gwalior_fort_Madhya_Pradesh_India_219521.jpg");
+    background-size: cover;
+}
+.E-todo:nth-child(2){
+    background-image: url("https://2.bp.blogspot.com/--lok43k8SWk/UULSuOk5EPI/AAAAAAAAAdU/70oen8qlfY0/s1600/majuli.jpg");
+    background-size: cover;
+}
+.E-todo:nth-child(3){
+    background-image: url("http://cultureandheritage.org/wp-content/uploads/2020/01/1-7.jpg");
+    background-size: cover;
+}
+.E-todo:nth-child(4){
+    background-image: url("https://www.montanawhitewater.com/wp-content/uploads/2016/03/orange-raft-rock.jpg");
+    background-size: cover;
+}
+.E-todo:nth-child(5){
+    background-image: url("https://d19lgisewk9l6l.cloudfront.net/assetbank/Gwalior_fort_Madhya_Pradesh_India_219521.jpg");
+    background-size: cover;
+}
+
+.W-todo:nth-child(1){
+    background-image: url("https://d19lgisewk9l6l.cloudfront.net/assetbank/Gwalior_fort_Madhya_Pradesh_India_219521.jpg");
+    background-size: cover;
+}
+.W-todo:nth-child(2){
+    background-image: url("https://www.smartertravel.com/uploads/2016/05/Mumbai-1400x500.jpg");
+    background-size: cover;
+}
+.W-todo:nth-child(3){
+    background-image: url("https://www.trawell.in/blog/wp-content/uploads/2020/12/Main3-1024x320.jpg");
+    background-size: cover;
+}
+.W-todo:nth-child(4){
+    background-image: url("https://www.benoitlaval.com/wp-content/uploads/2015/02/winning-the-rann-of-kutch-1-1.jpg");
+    background-size: cover;
+}
+.W-todo:nth-child(5){
+    background-image: url("https://d19lgisewk9l6l.cloudfront.net/assetbank/Gwalior_fort_Madhya_Pradesh_India_219521.jpg");
+    background-size: cover;
+}
+
+.C-todo:nth-child(1){
+    background-image: url("http://www.trodly.com/pictures/state/chhattisgarh.jpg");
+    background-size: cover;
+}
+
+.C-todo:nth-child(2){
+    background-image: url("http://www.maharajas-express-india.com/images/khajuraho_1.jpg");
+    background-size: cover;
+}
+.C-todo:nth-child(3){
+    background-image: url("https://d19lgisewk9l6l.cloudfront.net/assetbank/Gwalior_fort_Madhya_Pradesh_India_219521.jpg");
+    background-size: cover;
+}
+.C-todo:nth-child(4){
+    background-image: url("https://static.adhoards.com/assets/images/homelocation/vijayawada.jpg");
+    background-size: cover;
+}
+.C-todo:nth-child(5){
+    background-image: url("http://www.trodly.com/pictures/state/chhattisgarh.jpg");
+    background-size: cover;
+}
+
+.U-todo:nth-child(1){
+    background-image: url("https://allindiatourandtravel.com/admin/uploads/gallery/leh-scenic-beauty-min-min.jpg");
+    background-size: cover;
+}
+
+.U-todo:nth-child(2){
+    background-image: url("https://www.tourmyindia.com/images/cultural-benner1.jpg");
+    background-size: cover;
+}
+.U-todo:nth-child(3){
+    background-image: url("https://i.pinimg.com/originals/e2/18/f2/e218f2f9dbbc8e8f462ec15409386030.jpg");
+    background-size: cover;
+}
+.U-todo:nth-child(4){
+    background-image: url("https://pictureholidays.com/wp-content/uploads/2020/07/leh-city-ladakh-packages-leh-tours.jpg");
+    background-size: cover;
+}
+.U-todo:nth-child(5){
+    background-image: url("https://allindiatourandtravel.com/admin/uploads/gallery/leh-scenic-beauty-min-min.jpg");
+    background-size: cover;
+}
+
+.N-ques-wrap{
+    background-image: url(https://ihplb.b-cdn.net/wp-content/uploads/2020/11/mussoorie.jpg);
+    background-size: cover;
+    background-color: rgba(255, 166, 0, 0.438);
+    background-blend-mode: multiply;
+    
+}
+
+.S-ques-wrap{
+    background-image: url(https://news.manikarthik.com/wp-content/uploads/2013/06/Tourist_Places_South_India_Munnar.jpg);
+    background-size: cover;
+    background-color: rgba(255, 166, 0, 0.438);
+    background-blend-mode: multiply;
+    
+}
+
+.E-ques-wrap{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Dusk_at_Saroornagar_lake.jpg/1200px-Dusk_at_Saroornagar_lake.jpg);
+    background-size: cover;
+    background-color: rgba(255, 166, 0, 0.438);
+    background-blend-mode: multiply;
+    
+}
+
+.W-ques-wrap{
+    background-image: url(http://gujarattourismonline.com/wp-content/uploads/2015/10/1.jpg);
+    background-size: cover;
+    background-color: rgba(255, 166, 0, 0.438);
+    background-blend-mode: multiply;
+    
+}
+
+.C-ques-wrap{
+    background-image: url(https://miro.medium.com/max/1916/1*5U_8tnMI4wrIffiDv5LKyw.jpeg);
+    background-size: cover;
+    background-color: rgba(255, 166, 0, 0.438);
+    background-blend-mode: multiply;
+    
+}
+
+.U-ques-wrap{
+    background-image: url(https://tripologer.com/wp-content/uploads/2016/01/Leh-Ladakh.jpg);
+    background-size: cover;
+    background-color: rgba(255, 166, 0, 0.438);
+    background-blend-mode: multiply;
+    
+}
+.ques-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+@media screen and (max-width:480px) {
+    .title{
+        font-size:20px;
+        text-align: center;
+        padding: 0;
+        margin-right: 2px;
+        padding-top: 20px;
+    }
+    .N-drap,
+    .S-drap,
+    .E-drap,
+    .W-drap,
+    .C-drap,
+    .U-drap{
+        display: block;
+    }
+    .N-ques-wrap,
+    .S-ques-wrap,
+    .E-ques-wrap,
+    .W-ques-wrap,
+    .W-ques-wrap,
+    .U-ques-wrap{
+        display: block;
+        width: 100%;
+        overflow-x: scroll;
+    }
+    .ques-container{
+        display: block;
+        white-space: nowrap;
+    }
+
+    
+    
+}
+

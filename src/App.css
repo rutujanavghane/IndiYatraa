@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif
+  }
+  
+  .home,
+  .contact-us
+   {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+  }
+  
+  .destination {
+    width: 100%;
+    height: 100vh;;
+    background-image:url("http://deiratravels.com/wp-content/uploads/2016/07/Indian-Tourism-1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+  }
+
+  .explore{
+    margin-top: 80px;
+  }
+  
+  .contact-us {
+    background-image: url('https://cdn.budgetyourtrip.com/images/photos/headerphotos/large/kazakhstan_river.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-blend-mode:overlay;
+    background-color: rgba(0, 0, 0, 0.527);
+  }
+  
+  .north-india {
+    width: 100%;
+    height: 100vh;;
+    background-image:url("https://images.pexels.com/photos/3881104/pexels-photo-3881104.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    background-color: rgba(255, 166, 0, 0.671);
+    background-blend-mode: multiply;
+  }
+
+  .south-india {
+    width: 100%;
+    height: 100vh;;
+    background-image:url("https://www.tripsavvy.com/thmb/d8MUgbOmy5O36TG1cjOA-jWl7Ns=/2128x1409/filters:no_upscale():max_bytes(150000):strip_icc()/shore-temple-640319518-58e3eaf25f9b58ef7e113e1f.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    background-color: rgba(255, 166, 0, 0.555);
+    background-blend-mode: multiply;
+  }
+
+  .east-india {
+    width: 100%;
+    height: 100vh;;
+    background-image:url("https://www.ankurkolkata.com/wp-content/uploads/2019/02/north-east-india-1170x540.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    background-color: rgba(255, 166, 0, 0.555);
+    background-blend-mode: multiply;
+  }
+
+  .west-india {
+    width: 100%;
+    height: 100vh;;
+    background-image:url("https://media.cntraveller.in/wp-content/uploads/2017/05/9-Ajanta.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    background-color: rgba(34, 34, 33, 0.575);
+    background-blend-mode: multiply;
+  }
+
+  .central-india {
+    width: 100%;
+    height: 100vh;;
+    background-image:url("https://res-4.cloudinary.com/enchanting/images/w_1600,h_700,c_fill,f_auto/et-web/2020/03/Enchanting-Travels-India-Tours-Bochasanwasi-Akshar-Purushottam-Swaminarayan-Sanstha/destination-gondal-central-amp-west-india.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    background-color: rgba(255, 166, 0, 0.555);
+    background-blend-mode: multiply;
+  }
+
+  .unt-india {
+    width: 100%;
+    height: 100vh;;
+    background-image:url("https://external-preview.redd.it/WVMpVoje1PteKkBLPglLeVMiGyPJGRpoc3LqMOoedIo.jpg?auto=webp&s=01e95e61fcfa462f68dd07bb944dcc7b675a87f2");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    background-color: rgba(255, 166, 0, 0.555);
+    background-blend-mode: multiply;
+  }

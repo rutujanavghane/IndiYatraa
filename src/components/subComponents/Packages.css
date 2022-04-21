@@ -1,0 +1,257 @@
+.packages_container{
+    width:100%;
+    height:50vh;
+    display: flex;
+    flex-direction: column;
+    text-align:start;
+    align-items:flex-start;
+    justify-content: space-evenly;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+    background-color: rgba(240, 248, 255, 0.384);
+
+}
+
+.packages_container h1{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#242424c9;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    display: flex;
+}
+
+.p_card_container{
+    width: 100%;
+    height: 80%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.p_card{
+    width:14%;
+    height: 100%;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    transition: all 0.05s ease-out ;
+}
+
+.p_vid{
+    width:100% ;
+    height: 70%;
+    background-color: bisque;
+    border-radius:5px;
+    background-image: url("https://images.pexels.com/photos/8230166/pexels-photo-8230166.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: all 0.05s ease-out ;
+}
+
+.p_vid1{
+    width:100% ;
+    height: 70%;
+    border-radius:5px;
+    background-image: url("https://k6u8v6y8.stackpathcdn.com/imgnew/kaziranga-tour-with-meghalya.webp");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: all 0.05s ease-out ;
+}
+
+.p_vid2{
+    width:100% ;
+    height: 70%;
+    border-radius:5px;
+    background-image: url("https://k6u8v6y8.stackpathcdn.com/imgnew/temple-tour-south-india.webp");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: all 0.05s ease-out ;
+}
+
+.p_vid3{
+    background-image: url("https://k6u8v6y8.stackpathcdn.com/imgnew/gangotari-tapovan-trek.webp");
+    background-size: cover;
+    width:100% ;
+    height: 70%;
+    border-radius:5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: all 0.05s ease-out ;
+}
+
+.p_vid4{
+    background-image: url("https://k6u8v6y8.stackpathcdn.com/imgnew/gujrat-classic-tour.webp");
+    background-size: cover;
+    width:100% ;
+    height: 70%;
+    border-radius:5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: all 0.05s ease-out ;
+}
+
+.p_vid5{
+    background-image: url("https://k6u8v6y8.stackpathcdn.com/imgnew/best-of-kerla.webp");
+    background-size: cover;
+    width:100% ;
+    height: 70%;
+    border-radius:5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: all 0.05s ease-out ;
+}
+
+.p_card h3{
+    opacity: 0;
+}
+
+.p_card:hover h3{
+    opacity: 1;
+    color: aliceblue;
+    text-shadow: 3px 3px 4px #000000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+
+.p_vid:hover{
+    background-color: #111111a8;
+    background-blend-mode: multiply;
+}
+.p_vid1:hover{
+    background-color: #111111a8;
+    background-blend-mode: multiply;
+} 
+.p_vid2:hover {
+    background-color: #111111a8;
+    background-blend-mode: multiply;
+}
+.p_vid3:hover {
+    background-color: #111111a8;
+    background-blend-mode: multiply;
+}
+.p_vid4:hover{
+    background-color: #111111a8;
+    background-blend-mode: multiply;
+} 
+.p_vid5:hover {
+    background-color: #111111a8;
+    background-blend-mode: multiply;
+}
+.p_c_text{
+    padding: 10px;
+    line-height: 20px;
+}
+.p_c_text h2{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #131212da;
+    
+}
+
+.p_c_text h4{
+      font-size: 14px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      color: #242424c9;
+      padding-bottom: 5px;
+      
+}
+
+.large_card_wrapper{
+    /* background-color:aqua; */
+    width: 100%;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    justify-content: space-evenly;
+}
+
+.large_card{
+    height: 55vh;
+    width: 80%;
+    /* background-color: blanchedalmond; */
+}
+
+.large-c_container{
+    background-image: url("https://cdn.tourradar.com/s3/serp/original/344930_WYlxScs9.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    background-color: burlywood;
+    background-blend-mode: multiply;
+    color:aliceblue;
+    text-align:start;
+    display: flex;
+    justify-content: left;
+    padding: 20px;
+    padding-left: 50px;
+    align-items: center;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.large-c_container h1 span{
+    font-size: 80px;
+    line-height: 80px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+}
+
+
+.large-c_container h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.small_card_wrapper{
+    width:90%;
+    height: 25vh;
+    /* background-color: #000000; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+
+.small_card{
+    width:15%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    border: 1px solid #4746467c;
+    border-radius: 5px;
+}
+.small_card i{
+    font-size: 50px;
+    color: hsl(214, 59%, 36%);
+    margin-bottom: 30px;
+}
+.small_card h4{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #2e2c2ca8;
+    text-transform: uppercase;
+}
+.small_card i:hover{
+    margin-bottom: 35px;
+    transition: all 0.3s ease-out ;
+}
